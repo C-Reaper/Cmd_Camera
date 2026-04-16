@@ -1,4 +1,4 @@
-# === Makefile.wine ===
+# === Makefile.web ===
 
 CC = clang
 CFLAGS = -O0 -std=gnu17 --target=wasm32-wasi
@@ -27,4 +27,4 @@ clean:
 
 do: clean all exe
 
-# === Makefile.wine ===
+# === Makefile.web ===
