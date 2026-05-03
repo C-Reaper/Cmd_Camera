@@ -1,7 +1,7 @@
 # === Makefile.web ===
 
 CC = clang
-CFLAGS = -O0 -std=gnu17 --target=wasm32-wasi
+CFLAGS = -O0 -std=gnu17 -Wall -Wno-unused -Wshadow -Werror --target=wasm32-wasi
 INCLUDES = -Isrc -D_WASM
 LDFLAGS = 
 SRC_DIR = ./src
